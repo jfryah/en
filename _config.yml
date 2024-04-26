@@ -10,7 +10,7 @@ title: Church History of the Church in Manila
 email: exhibit@churchinmanila.org
 description: > # this means to ignore newlines until "baseurl:"
   An audio guide for the church history exhibit.
-baseurl: "/history-eng/" # the subpath of your site, e.g. /blog
+baseurl: "/history-eng" # the subpath of your site, e.g. /blog
 audio_path: "/audio/"
 episode_hero_path: "/assets/img/stops/"
 url: "https://churchinmanila.github.io/" # the base hostname & protocol for your site
@@ -26,4 +26,4 @@ headphones_icon_light: "/assets/img/icons/headphones-light.png"
 markdown: kramdown
 
 # Version settings (version number below is used for cache busting CSS and JS)
-version_number: 1.0.0.5
+version_number: 1.0.0.6
