@@ -480,7 +480,7 @@ Hero images on audio guide stop pages
 
 .post-hero-image-container {
     margin-bottom: 0.5em;
-    background-color: $background-darker;
+    background-color: $hero-image-bg;
     border-radius: 5px;
 }
 
@@ -517,7 +517,7 @@ Audio Player Styling
 }
 
 .audio-footer-container {
-    background-color: darken($background-darker, 5%);
+    background-color: darken($player-audio-footer-bg, 35%);
     bottom: 0;
     left: 0;
     right: 0;
