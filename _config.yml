@@ -14,7 +14,7 @@ baseurl: "/en" # the subpath of your site, e.g. /blog
 audio_path: "/audio/"
 episode_hero_path: "/assets/img/stops/"
 url: "https://historycenter.churchinmanila.org/" # the base hostname & protocol for your site
-logo: "/assets/img/logo/audio-guide.png"
+logo: "/assets/img/logo/history center logo.png"
 twitter_username: churchinmanila
 github_username:  churchinmanila
 menu_heading: "Select another stop"
@@ -26,4 +26,4 @@ headphones_icon_light: "/assets/img/icons/headphones-light.png"
 markdown: kramdown
 
 # Version settings (version number below is used for cache busting CSS and JS)
-version_number: 1.0.0.14
+version_number: 1.0.0.15
