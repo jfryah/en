@@ -8,7 +8,7 @@
 // Our variables
 $base-font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
-$base-font-size:   17px;
+$base-font-size:   16px;
 
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
@@ -24,14 +24,14 @@ $brand-color:	   	#0055ff;
 $anchor-hover-color:	lighten($brand-color, 30%);
 
 $player-now-playing-size:   13px;
-$player-height:		64px;
+$player-height:		56px;
 $player-button-size:	48px;
 $player-bgcolor:	$brand-color;
 $player-scrubber-color:	darken($brand-color, 1%);
 $player-loaded-color:	darken($brand-color, 10%);
 $player-progress-color:		lighten($brand-color, 30%);
 $player-play-color:		lighten($brand-color, 5%);
-$player-progress-height: 10px;
+$player-progress-height: 5px;
 
 $player-audio-footer-bg: #0055ff;
 
@@ -39,8 +39,8 @@ $hero-image-bg:    $background-color;
 
 $tile-bgcolor:	   $brand-color;
 $tile-color:	   #fafafa;
-$tile-size:		   56px;
-$tile-size-large:  64px;
+$tile-size:		   54px;
+$tile-size-large:  54px;
 $tile-border-radius:	2px;
 
 $grey-color:       $brand-color;
