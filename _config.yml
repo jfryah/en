@@ -18,7 +18,7 @@ logo: "/assets/img/logo/history center logo.png"
 twitter_username: churchinmanila
 github_username:  churchinmanila
 menu_heading: "Select another stop"
-index_page_text: "Select an audio guide stop to begin."
+index_page_text: "Select an audio stop to begin."
 headphones_icon_color: "/assets/img/icons/headphones-dark.png"
 headphones_icon_light: "/assets/img/icons/headphones-light.png"
 
@@ -26,4 +26,4 @@ headphones_icon_light: "/assets/img/icons/headphones-light.png"
 markdown: kramdown
 
 # Version settings (version number below is used for cache busting CSS and JS)
-version_number: 1.0.0.30
+version_number: 1.0.0.31
