@@ -355,7 +355,8 @@
         line-height: 0;
         a {
             margin: 5px;
-            background-color: $tile-bgcolor;
+            // background-color: $tile-bgcolor;
+            background-color: $tile-bgcolor-bright;
             background-size: 100%;
             color: $tile-color;
             width: $tile-size-large;
@@ -368,7 +369,7 @@
             position: relative;
             padding: 0;
             &:hover, &:active, &:focus {
-                background-color: lighten($tile-bgcolor, 10%);
+                background-color: lighten($tile-bgcolor-bright, 10%);
             }
             @include media-query($on-palm) {
                 width: $tile-size;
@@ -448,7 +449,8 @@
     .post-header-section-title {
         //color: lighten($brand-color, 20%);
         display: inline-block;
-        color: lighten($brand-color, 50%);
+        // color: lighten($brand-color, 50%);
+        color: #FFFFFF;
         font-size: 20px;
         line-height: 20px;
         margin-top: 0;
@@ -456,18 +458,20 @@
         text-align: center;
     }
     .post-header-title {
-        color: lighten($brand-color, 10%);
+        // color: lighten($brand-color, 10%);
+        color: #FFFFFF;
         font-size: 24px;
         line-height: 28px;
         margin-top: 0;
         margin-bottom: 0;
         text-align: center;
         padding-top: 0.5em;
-        border-top: 1px solid $background-hr;
+        // border-top: 1px solid $background-hr;
+        border-top: 2px solid $brand-color;
         text-align: left;
     }
     padding-bottom: 0.5em;
-    border-bottom: 1px solid $background-hr;
+    // border-bottom: 1px solid $background-hr;
 }
 
 .post-content {
@@ -554,7 +558,8 @@ Audio Player Styling
 }
 
 .audio-footer-container {
-    background-color: darken($player-audio-footer-bg, 35%);
+    // background-color: darken($player-audio-footer-bg, 35%);
+    background-color: darken($brand-color, 20%);
     bottom: 0;
     left: 0;
     right: 0;

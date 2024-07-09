@@ -20,7 +20,8 @@ $text-color:       	#ffffff;
 $background-hr:		#ffffff; // header 
 $background-color: 	#050b18;
 $background-darker: #001A4D; // #2b2a6a;
-$brand-color:	   	#0055ff;
+// $brand-color:	   	#0055ff;
+$brand-color:	   	#2A4FA0;
 $anchor-hover-color:	lighten($brand-color, 30%);
 
 $player-now-playing-size:   13px;
@@ -28,7 +29,7 @@ $player-height:		56px;
 $player-button-size:	48px;
 $player-bgcolor:	$brand-color;
 $player-scrubber-color:	darken($brand-color, 1%);
-$player-loaded-color:	darken($brand-color, 10%);
+$player-loaded-color:	darken($brand-color, 5%);
 $player-progress-color:		lighten($brand-color, 30%);
 $player-play-color:		lighten($brand-color, 5%);
 $player-progress-height: 5px;
@@ -37,6 +38,7 @@ $player-audio-footer-bg: #0055ff;
 
 $hero-image-bg:    $background-color;
 
+$tile-bgcolor-bright: #0055ff;
 $tile-bgcolor:	   $brand-color;
 $tile-color:	   #fafafa;
 $tile-size:		   54px;
