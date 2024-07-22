@@ -111,7 +111,8 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-    color: $brand-color;
+    // color: $brand-color;
+    color: lighten($brand-color, 30%);
     text-decoration: none;
     transition: 0.2s;
 
@@ -120,7 +121,8 @@ a {
     }
 
     &:hover {
-        color: $anchor-hover-color;
+        // color: $anchor-hover-color;
+        color: lighten($brand-color, 20%);
         text-decoration: none;
 
     }
