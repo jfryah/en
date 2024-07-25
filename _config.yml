@@ -6,19 +6,19 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Church in Manila History Center
+title: History Center of the Church in Manila
 email: info@churchinmanila.org
 description: > # this means to ignore newlines until "baseurl:"
-  An audio guide for Church in Manila History Center
+  An audio guide for History Center of the Church in Manila
 baseurl: "/en" # the subpath of your site, e.g. /blog
 audio_path: "/audio/"
 episode_hero_path: "/assets/img/stops/"
 url: "https://historycenter.churchinmanila.org/" # the base hostname & protocol for your site
-logo: "/assets/img/logo/audio-guide.png"
+logo: "/assets/img/logo/history center logo.png"
 twitter_username: churchinmanila
 github_username:  churchinmanila
 menu_heading: "Select another stop"
-index_page_text: "Select an audio guide stop to begin."
+index_page_text: "Select an audio stop to begin."
 headphones_icon_color: "/assets/img/icons/headphones-dark.png"
 headphones_icon_light: "/assets/img/icons/headphones-light.png"
 
@@ -26,4 +26,4 @@ headphones_icon_light: "/assets/img/icons/headphones-light.png"
 markdown: kramdown
 
 # Version settings (version number below is used for cache busting CSS and JS)
-version_number: 1.0.0.11
+version_number: 1.0.0.46

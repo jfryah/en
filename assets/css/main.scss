@@ -8,7 +8,7 @@
 // Our variables
 $base-font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 
-$base-font-size:   20px;
+$base-font-size:   16px;
 
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
@@ -16,27 +16,33 @@ $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
-$text-color:       	#fafafa;
-$background-hr:		#383838;
-$background-color: 	#222222;
-$background-darker: #1B1B1B;
-$brand-color:	   	#43A047;
+$text-color:       	#ffffff;
+$background-hr:		#ffffff; // header 
+$background-color: 	#050b18;
+$background-darker: #001A4D; // #2b2a6a;
+// $brand-color:	   	#0055ff;
+$brand-color:	   	#2A4FA0;
 $anchor-hover-color:	lighten($brand-color, 30%);
 
 $player-now-playing-size:   13px;
-$player-height:		64px;
+$player-height:		56px;
 $player-button-size:	48px;
 $player-bgcolor:	$brand-color;
 $player-scrubber-color:	darken($brand-color, 1%);
 $player-loaded-color:	darken($brand-color, 5%);
-$player-progress-color:		lighten($brand-color, 10%);
+$player-progress-color:		lighten($brand-color, 30%);
 $player-play-color:		lighten($brand-color, 5%);
-$player-progress-height: 10px;
+$player-progress-height: 5px;
 
+$player-audio-footer-bg: #0055ff;
+
+$hero-image-bg:    $background-color;
+
+$tile-bgcolor-bright: #0055ff;
 $tile-bgcolor:	   $brand-color;
 $tile-color:	   #fafafa;
-$tile-size:		   56px;
-$tile-size-large:  64px;
+$tile-size:		   54px;
+$tile-size-large:  54px;
 $tile-border-radius:	2px;
 
 $grey-color:       $brand-color;
