@@ -9,7 +9,7 @@
 title: History Center of the Church in Manila
 email: info@churchinmanila.org
 description: > # this means to ignore newlines until "baseurl:"
-  An audio guide for History Center of the Church in Manila
+  An audio guide for the History Center of the Church in Manila
 baseurl: "/en" # the subpath of your site, e.g. /blog
 audio_path: "/audio/"
 episode_hero_path: "/assets/img/stops/"
@@ -26,4 +26,4 @@ headphones_icon_light: "/assets/img/icons/headphones-light.png"
 markdown: kramdown
 
 # Version settings (version number below is used for cache busting CSS and JS)
-version_number: 1.0.24.802
+version_number: 1.0.24.813
