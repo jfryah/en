@@ -20,7 +20,7 @@ github_username:  churchinmanila
 menu_heading: "Select another stop"
 index_page_text: "Select an audio stop to begin."
 headphones_icon_color: "/assets/img/icons/headphones-dark.png"
-headphones_icon_light: "/assets/img/icons/headphones-dark.png"
+headphones_icon_light: "/assets/img/icons/headphones-light.png"
 
 # Build settings
 markdown: kramdown
